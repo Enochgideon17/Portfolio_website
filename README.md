@@ -15,7 +15,5 @@
 A fully static, single-page portfolio website for **Enoch G**, a B.E. AI/ML student
 at Cambridge Institute of Technology, Bangalore. Built with pure HTML, CSS, and
 JavaScript — no frameworks, no dependencies.
-
 ---
 
-## 🗂️ Project Structure
