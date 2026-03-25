@@ -1,8 +1,3 @@
-/* ═══════════════════════════════════════════
-   ENOCH G — PORTFOLIO
-   style.css  (NEXUS aesthetic)
-═══════════════════════════════════════════ */
-
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
@@ -564,7 +559,7 @@ body {
 /* ── CONTACT ── */
 .contact-grid {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   gap: 1px;
   background: var(--border);
   border: 1px solid var(--border);
@@ -610,7 +605,14 @@ body {
 .contact-card:nth-child(2) .stream-bar { background: linear-gradient(to right, transparent, var(--s),   transparent); animation-delay: 0.5s; }
 .contact-card:nth-child(3) .stream-bar { background: linear-gradient(to right, transparent, var(--p),   transparent); animation-delay: 1s; }
 .contact-card:nth-child(4) .stream-bar { background: linear-gradient(to right, transparent, var(--acc), transparent); animation-delay: 1.5s; }
-
+.contact-card:nth-child(5) .stream-bar { 
+  background: linear-gradient(to right, transparent, var(--p), transparent); 
+  animation-delay: 2.5s; 
+}
+.contact-card:nth-child(6) .stream-bar { 
+  background: linear-gradient(to right, transparent, var(--acc), transparent); 
+  animation-delay: 3.0s; 
+}
 @keyframes streamFlow {
   from { transform: translateX(-150%); }
   to   { transform: translateX(350%); }
